@@ -1,0 +1,58 @@
+.section{
+    display: grid;
+    justify-items: center;
+    text-align: center;
+    height: 78.3%;
+    border-radius: 25px;
+    transition: all 500ms;
+    
+}
+
+.section-not-selected{
+    width: 39.6%;
+    align-content: center;
+    transition: all 500ms;
+}
+
+.section-selected{
+    width: 81%;
+    align-content: flex-start;
+    transition: all 500ms;
+}
+
+.section-not-selected:hover{
+    width: 44.6%;
+    height: 80.8%;
+    transition: all 500ms;
+}
+
+.text{
+    text-align: start;
+}
+
+.text-not-selected{
+    width: 50%;
+}
+
+.text-selected{
+    width: 80%;
+}
+
+
+@media (max-width: 720px) {
+    .section-not-selected{
+        width: 86%;
+        height: 33.5%;
+        transition: 500ms;
+    }
+
+    .section-not-selected:hover{
+        width: 91%;
+        height: 36%;
+        transition: 500ms;
+    }
+
+    .section-selected{
+        height: 85%;
+    }
+}

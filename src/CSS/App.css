@@ -1,0 +1,33 @@
+@font-face {
+    font-family: 'Kumbh sans';
+    font-style: normal;
+    font-weight: 300;
+    src: url("../fonts/Kumbh_Sans/KumbhSans-VariableFont_YOPQ,wght.ttf")
+}
+
+html body{
+    font-family: 'Kumbh sans';
+    margin: 0;
+}
+
+img {
+    width: 60px;
+    height: 60px;
+    border-radius: 15px;
+}
+
+@media (max-width: 720px) {
+    img {
+        width: 56px;
+        height: 56px;
+        border-radius: 14px;
+    }
+}
+
+@media (max-width: 400px) {
+    img {
+        width: 52px;
+        height: 52px;
+        border-radius: 13px;
+    }
+}

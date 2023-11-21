@@ -1,0 +1,15 @@
+.change-button-view{
+    background: #262626;
+    color: white;
+    transition: 500ms;
+}
+
+.change-button-view:disabled{
+    opacity: 0.5;
+    transition: 500ms;
+}
+
+.change-button-view:hover:enabled{
+    color: rgba(255, 255, 255, 0.5);
+    transition: 500ms;
+}

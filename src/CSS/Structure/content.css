@@ -1,0 +1,20 @@
+.content{
+    align-items: center;
+}
+
+.content-not-selected{
+    justify-content: space-around;
+}
+
+.content-selected{
+    justify-content: center;
+}
+
+
+@media (max-width: 720px) {
+
+    .content-selected{
+        flex-direction: column;
+        justify-content: start;
+    }
+}

@@ -1,0 +1,31 @@
+.bg{
+    display: flex;
+    height: 10vh;
+    align-items: center;
+    text-align: center;
+}
+
+.footer{
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.image{
+    margin: 10px;
+}
+
+.header-footer-text{
+    margin: 0px 5px;
+}
+
+@media (max-width: 720px) {
+    .image{
+        margin: 5px;
+    }
+}
+
+@media (max-width: 400px) {
+    .image{
+        margin: 2.5px;
+    }
+}

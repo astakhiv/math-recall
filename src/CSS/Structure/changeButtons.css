@@ -1,0 +1,27 @@
+.change-buttons{
+    display: block;
+    height: 78.3%;
+}
+
+.change-button{
+    width: 100px;
+    height: 100px;
+    border-radius: 25px;
+    border: none;
+    margin: 0 5px 5px 0px;
+}
+
+@media (max-width: 720px) {
+    .change-button{
+        width: 75px;
+        height: 75px;
+        border-radius: 18.75px;
+        margin: 0px 2.5px 2.5px 0px;
+    }
+
+    .change-buttons{
+        display: flex;
+        height: fit-content;
+        width: 85%;
+    }
+}

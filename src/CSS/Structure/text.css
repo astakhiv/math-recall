@@ -1,0 +1,43 @@
+.big, .medium, .small{
+    font-weight: 800;
+}
+
+.big {
+    font-size: 44px;
+}
+
+.medium{
+    font-size: 37px;
+}
+
+.small{
+    font-size: 20px;
+}
+
+@media (max-width: 720px) {
+    .big{
+        font-size: 40px;
+    }
+
+    .medium{
+        font-size: 33px;
+    }
+
+    .small{
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 400px) {
+    .big{
+        font-size: 36px;
+    }
+
+    .medium{
+        font-size: 29px;
+    }
+    
+    .small{
+        font-size: 12px;
+    }
+}

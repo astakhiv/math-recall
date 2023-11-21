@@ -1,0 +1,4 @@
+.section-hover:hover{
+    filter: drop-shadow(10px 5px 4px #4444dd);
+    transition: all 750ms;
+}
