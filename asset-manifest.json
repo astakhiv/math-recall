@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/math-recall/static/css/main.01bf1ce2.css",
+    "main.js": "/math-recall/static/js/main.e1cad010.js",
+    "static/media/MathRecall-logo.png": "/math-recall/static/media/MathRecall-logo.6a41bac536676283010c.png",
+    "static/media/Instagram-logo.png": "/math-recall/static/media/Instagram-logo.b530e217eb5f1431ef42.png",
+    "static/media/Github-logo.png": "/math-recall/static/media/Github-logo.757dbae6f9002ca38c86.png",
+    "static/media/KumbhSans-VariableFont_YOPQ,wght.ttf": "/math-recall/static/media/KumbhSans-VariableFont_YOPQ,wght.a923ff7a93f52bbabcd3.ttf",
+    "static/media/Discord-logo.png": "/math-recall/static/media/Discord-logo.4592a9c36081d0dfd1a7.png",
+    "index.html": "/math-recall/index.html",
+    "main.01bf1ce2.css.map": "/math-recall/static/css/main.01bf1ce2.css.map",
+    "main.e1cad010.js.map": "/math-recall/static/js/main.e1cad010.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.01bf1ce2.css",
+    "static/js/main.e1cad010.js"
+  ]
+}
