@@ -28,6 +28,6 @@
 
 @media (max-width: 720px) {
     .content-view{
-        background: linear-gradient(0deg, rgba(80,150,56,1) 0%, rgba(119,59,178,1) 100%);
+        background: linear-gradient(180deg, rgba(119,59,178,1) var(--pa), rgba(80,150,56,1) var(--pg));
     }
 }
