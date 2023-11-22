@@ -1,7 +1,7 @@
 @property --pa {
     syntax: '<percentage>';
     inherits: false;
-    initial-value: 0%;
+    initial-value: 1%;
 }
 
 @property --pg {
