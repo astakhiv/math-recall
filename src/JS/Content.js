@@ -31,7 +31,7 @@ const buttons = [
 function Content(){
     const [selected, setSelected] = useState(-1);
 
-    let bg = "content-view";
+    let bg = "";
     let content = (
         <>
             {
@@ -75,7 +75,7 @@ function Content(){
     }
 
     return (
-        <div className={`body-bg content ${bg} ` + (selected === -1 ? "content-not-selected" : "content-selected")}>
+        <div className={`body-bg content content-view ${bg} ` + (selected === -1 ? "content-not-selected" : "content-selected")}>
             { content }
         </div>
     )

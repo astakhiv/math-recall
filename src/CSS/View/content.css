@@ -11,43 +11,23 @@
 }
 
 .algebra-selected{
-    --pa:0%;
-    background: linear-gradient(90deg, rgba(119,59,178,1) var(--pa), rgba(80,150,56,1) 100%);
-    transition:--pa 500ms
-}
-
-.algebra-selected{
     --pa:50%;
-    transition:--pa 500ms
+    transition: --pa 500ms;
 }
 
-
-.geometry-selected {
-    --pg:100%;
-    background: linear-gradient(90deg, rgba(119,59,178,1) 0%, rgba(80,150,56,1) var(--pg));
-    transition:--pg 500ms
-}
 
 .geometry-selected{
     --pg:50%;
-    transition:--pg 500ms
+    transition: --pg 500ms;
 }
 
-
 .content-view{
-    background: linear-gradient(90deg, rgba(119,59,178,1) 0%, rgba(80,150,56,1) 100%);
+    background: linear-gradient(90deg, rgba(119,59,178,1) var(--pa), rgba(80,150,56,1) var(--pg));
+    transition: --pa 500ms, --pg 500ms;
 }
 
 @media (max-width: 720px) {
     .content-view{
         background: linear-gradient(0deg, rgba(80,150,56,1) 0%, rgba(119,59,178,1) 100%);
-    }
-
-    .algebra-selected{
-        background: linear-gradient(0deg, rgba(80,150,56,1) 0%, rgba(119,59,178,1) 50%);
-    }
-    
-    .geometry-selected {
-        background: linear-gradient(0deg, rgba(80,150,56,1) 50%, rgba(119,59,178,1) 100%);
     }
 }
