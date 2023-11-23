@@ -1,6 +1,6 @@
 .bg{
     display: flex;
-    height: 10vh;
+    min-height: 10vh;
     align-items: center;
     text-align: center;
 }

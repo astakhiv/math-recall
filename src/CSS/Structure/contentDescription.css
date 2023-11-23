@@ -1,5 +1,7 @@
 .body-bg{
-    height: 90vh;
+    min-height: 90vh;
+    height: 1px;
+    height: fit-content;
     display: flex;
     flex-wrap: wrap;
 }

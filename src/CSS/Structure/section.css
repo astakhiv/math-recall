@@ -2,7 +2,7 @@
     display: grid;
     justify-items: center;
     text-align: center;
-    height: 78.3%;
+    height: 70.47vh;
     border-radius: 25px;
     transition: all 500ms;
     
@@ -22,7 +22,7 @@
 
 .section-not-selected:hover{
     width: 44.6%;
-    height: 80.8%;
+    height: 72.72vh;
     transition: all 500ms;
 }
 
@@ -42,17 +42,22 @@
 @media (max-width: 720px) {
     .section-not-selected{
         width: 86%;
-        height: 33.5%;
+        height: 30.15vh;
         transition: 500ms;
     }
 
     .section-not-selected:hover{
         width: 91%;
-        height: 36%;
+        height: 32.4vh;
         transition: 500ms;
     }
 
     .section-selected{
-        height: 85%;
+        height: 76.5vh;
+        margin: 0px 0px 100px 0px;
+    }
+
+    .text-not-selected{
+        width: 60%;
     }
 }
