@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/math-recall/static/css/main.72d12462.css",
-    "main.js": "/math-recall/static/js/main.30e9e305.js",
+    "main.css": "/math-recall/static/css/main.7d469903.css",
+    "main.js": "/math-recall/static/js/main.342bb3e5.js",
     "static/media/MathRecall-logo.png": "/math-recall/static/media/MathRecall-logo.6a41bac536676283010c.png",
     "static/media/Instagram-logo.png": "/math-recall/static/media/Instagram-logo.b530e217eb5f1431ef42.png",
     "static/media/Github-logo.png": "/math-recall/static/media/Github-logo.757dbae6f9002ca38c86.png",
     "static/media/KumbhSans-VariableFont_YOPQ,wght.ttf": "/math-recall/static/media/KumbhSans-VariableFont_YOPQ,wght.a923ff7a93f52bbabcd3.ttf",
     "static/media/Discord-logo.png": "/math-recall/static/media/Discord-logo.4592a9c36081d0dfd1a7.png",
     "index.html": "/math-recall/index.html",
-    "main.72d12462.css.map": "/math-recall/static/css/main.72d12462.css.map",
-    "main.30e9e305.js.map": "/math-recall/static/js/main.30e9e305.js.map"
+    "main.7d469903.css.map": "/math-recall/static/css/main.7d469903.css.map",
+    "main.342bb3e5.js.map": "/math-recall/static/js/main.342bb3e5.js.map"
   },
   "entrypoints": [
-    "static/css/main.72d12462.css",
-    "static/js/main.30e9e305.js"
+    "static/css/main.7d469903.css",
+    "static/js/main.342bb3e5.js"
   ]
 }
