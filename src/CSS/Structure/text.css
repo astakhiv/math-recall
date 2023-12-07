@@ -28,7 +28,7 @@
     }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 550px) {
     .big{
         font-size: 36px;
     }
