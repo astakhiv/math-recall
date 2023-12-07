@@ -16,9 +16,7 @@ function Footer(){
             <div>
                 <img className="image" src={discordLogo} alt="discord logo"></img>
                 <img className="image" src={instagramLogo} alt="instagram logo"></img>
-                <a href="https://astakhiv.github.io/happy-birthday/">
-                    <img className="image" src={githubLogo} alt="github logo"></img>
-                </a>
+                <img className="image" src={githubLogo} alt="github logo"></img>
             </div>
         </footer>
     )
