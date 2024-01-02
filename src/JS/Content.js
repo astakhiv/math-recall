@@ -75,9 +75,9 @@ function Content(){
     }
 
     return (
-        <div className={`body-bg content content-view ${bg} ` + (selected === -1 ? "content-not-selected" : "content-selected")}>
+        <section className={`body-bg content content-view ${bg} ` + (selected === -1 ? "content-not-selected" : "content-selected")}>
             { content }
-        </div>
+        </section>
     )
 }
 

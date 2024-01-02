@@ -15,10 +15,10 @@ function Section({name, content, onClick, selected}){
     }
     
     return (
-        <div className={"section dark-theme " + styles.section} onClick={onClick}>
+        <article className={"section dark-theme " + styles.section} onClick={onClick}>
             <h2 className="medium">{name}</h2>
             <span className={"text small " + styles.text}>{content}</span>
-        </div>
+        </article>
     )
 }
 

@@ -3,10 +3,10 @@ import Description from "./Description"
 
 function Body(){
     return (
-        <div>
+        <main>
             <Content/>
             <Description/>
-        </div>
+        </main>
     )
 }
 
