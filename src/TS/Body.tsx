@@ -1,5 +1,5 @@
-import Content from "./Content"
-import Description from "./Description"
+import Content from './Content'
+import Description from './Description'
 
 function Body(){
     return (
