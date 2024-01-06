@@ -198,8 +198,8 @@ const pages = {
                         content: 'Дискримінінтом квадратного рівняння називають вираз b2-4ac'
                     },
                     {
-                        type: 'formula',
-                        content: '../images/...'
+                        type: 'p',
+                        content: 'D=b^2-4ac'
                     },
                     {
                         type: 'ol',
@@ -221,8 +221,8 @@ const pages = {
                         content: 'Якщо зведене квадратне рівняння має два корені, то їх сума дорівнює другому коефіцієнту з протилежним знаком, а добуток третьому коефіцієнту'
                     },
                     {
-                        type: 'formula',
-                        content: '../images/...'
+                        type: 'p',
+                        content: 'x^2+bx+c=0 <br>x1+x2=-b <br>x1*x2=c'
                     }
                 ]
             },
@@ -242,16 +242,16 @@ const pages = {
                         name: 'Розкладання на тричлен',
                         data: [
                             {
-                                type: 'formula',
-                                content: '../images/...'
+                                type: 'p',
+                                content: 'D>0, то даний квадратний тричлен можна розкласти на множники <br>ax^2+bx+c=a(x-x1)(x-x2), де x1, x2 - корені квадратного тричлена'
                             },
                             {
-                                type: 'formula',
-                                content: '../images/...'
+                                type: 'p',
+                                content: 'D<0, то тричлен не можна розкласти на множники'
                             },
                             {
-                                type: 'formula',
-                                content: '../images/...'
+                                type: 'p',
+                                content: 'D=0, то тричлем можна розкласти на множники <br>ax^2+bx+c=a(x-x1)2, де x1, x2 - корені квадратного тричлена'
                             }
                         ]
                     }
@@ -261,28 +261,28 @@ const pages = {
                 name: 'Біквадратне рівняння',
                 elements: [
                     {
-                        type: 'formula',
-                        content: '../images/...'
+                        type: 'p',
+                        content: 'Це рівняння вигляду ax^4+bx^2+c=0, де а — не дорівнює 0'
                     },
                     {
                         type: 'ol',
                         name: 'Розв’язання',
                         data: [
                             {
-                                type: 'formula',
-                                content: '../images/...'
+                                type: 'p',
+                                content: 'Замінюємо змінну x^2 на t'
                             },
                             {
-                                type: 'formula',
-                                content: '../images/...'
+                                type: 'p',
+                                content: 'Розв’язуємо утворене квадратне рівняння: at^2+bt+c=0'
                             },
                             {
-                                type: 'formula',
-                                content: '../images'
+                                type: 'p',
+                                content: 'Розв’язуємо утворене квадратне рівняння: at^2+bt+c=0'
                             },
                             {
-                                type: 'formula',
-                                content: '../images'
+                                type: 'p',
+                                content: 'Отримані значення перевіряємо і записуємо у відповідь'
                             }
                         ]
                     }
@@ -298,40 +298,48 @@ const pages = {
                         content: 'Якщо обидві частини нерівності є числа, то її називають числовою'
                     },
                     {
-                        type: 'formula',
-                        content: '../images/...'
+                        type: 'p',
+                        content: '5>3-правильна'
+                    },
+                    {
+                        type: 'p',
+                        content: '5<3-неправильна'
                     },
                     {
                         type: 'p',
                         content: 'Нерівності бувають строгі і нестрогі'
                     },
                     {
-                        type: 'formula',
-                        content: '../images/...'
+                        type: 'p',
+                        content: '10>2-строга'
                     },
                     {
-                        type: 'formula',
-                        content: '../images/...'
+                        type: 'p',
+                        content: '5>=3-нестрога'
+                    },
+                    {
+                        type: 'p',
+                        content: 'Число a>b, якщо a-b>0; a<b, якщо a-b<0'
                     },
                     {
                         type: 'ol',
                         name: 'Властивості',
                         data: [
                             {
-                                type: 'formula',
-                                content: '../images/...'
+                                type: 'p',
+                                content: 'a>b, b>c, тоді a>c'
                             },
                             {
-                                type: 'formula',
-                                content: '../images/...'
+                                type: 'p',
+                                content: 'a>b | +c => a+c>b+c, c-будь-яку число'
                             },
                             {
-                                type: 'formula',
-                                content: '../images/...'
+                                type: 'p',
+                                content: 'a>b | *c => ac>bc, c>0<br>a>b | *c => ac<bc, c<0'
                             },
                             {
-                                type: 'formula',
-                                content: '../images/...'
+                                type: 'p',
+                                content: 'a>b (a>0, b>0) => 1/a<1/b'
                             }
                         ]
                     }
@@ -344,21 +352,21 @@ const pages = {
                         type: 'ol',
                         data: [
                             {
-                                type: 'formula',
+                                type: 'np',
                                 name: 'Нерівності з однаковими знаками можна почленно додавати',
-                                content: '../images/...'
+                                content: 'a<b ; c<d ; a+c<b+d'
                             },
                             {
-                                type: 'formula',
+                                type: 'np',
                                 name: 'Нерівності з однаковими знаками можна почленно перемножити, якщо їх ліві та праві частини - додатні числа',
-                                content: '../images/...'
+                                content: 'a<b ; c<d ; ac<bd'
                             }
                         ]
                     },
                     {
-                        type: 'formula',
+                        type: 'p',
                         name: 'Віднімати і ділити почленно не можна',
-                        content: '../images/...'
+                        content: 'a-b=a+(-b)<br>a/b=a*1/b'
                     }
                 ]
             },
@@ -371,7 +379,7 @@ const pages = {
                     },
                     {
                         type: 'fornmula',
-                        content:'../images/...'
+                        content:'x є (-безкінечності; +безкінечності)'
                     },
                     {
                         type: 'p',
@@ -409,8 +417,8 @@ const pages = {
                 name: 'Лінійні нерівності',
                 elements: [
                     {
-                        type: 'formula',
-                        content: '../images/...'
+                        type: 'p',
+                        content: 'ax^2+bx+c, де a,b,c-деякі числа, a0, а права 0 називається квадратною нерівністю'
                     },
                     {
                         type: 'ol',
@@ -471,33 +479,33 @@ const pages = {
                 name: 'Числові послідовності',
                 elements: [
                     {
-                        type: 'formula',
-                        content: '../images/...'
+                        type: 'p',
+                        content: '1,2,3,4,5,... - послідовність натуральних чисел'
                     },
                     {
-                        type: 'formula',
-                        content: '../images/...'
+                        type: 'p',
+                        content: '1,4,9,14,25,... - послідовність квадратів натуральних чисел'
                     },
                     {
-                        type: 'formula',
-                        content: '../images/...'
+                        type: 'p',
+                        content: '1;1/2;1/3;1/4;1/5;... - послідовність обернених до натуральних чисел'
                     },
                     {
-                        type: 'formula',
-                        content: '../images/...'
+                        type: 'p',
+                        content: 'a1,a2, ... ,an;'
                     },
                     {
-                        type: 'formula',
-                        content: '../images/...'
+                        type: 'p',
+                        content: 'a1- перший член послідовності'
                     },
                     {
-                        type: 'formula',
-                        content: '../images/...'
+                        type: 'p',
+                        content: 'an- n ий член послідовності'
                     },
                     {
-                        type: 'formula',
+                        type: 'np',
                         name: 'Послідовність часто задають за допомогою формули n-го члена',
-                        content: '../images/...'
+                        content: 'an=n/(n+1)'
                     },
                     {
                         type: 'p',
@@ -541,8 +549,8 @@ const pages = {
                         content: 'd - різниця арифметичної прогресії'
                     },
                     {
-                        type: 'formula',
-                        content: '../images/...'
+                        type: 'p',
+                        content: 'an=a1+d*(n-1) - формула n-го члена'
                     },
                     {
                         type: 'np',
@@ -550,9 +558,9 @@ const pages = {
                         content: 'Кожен член, починаючи з другого, є середнім арифметичним з двома сусідніми або рівновіддаленими від нього членами'
                     },
                     {
-                        type: 'formula',
+                        type: 'np',
                         name: 'Сума перших n членів арифметичної прогресії',
-                        content: '../images/...'
+                        content: 'S=((a1+an)/2)*n=(2*a1+d(n-1))/2)*n'
                     }
                 ]
             },
@@ -572,8 +580,8 @@ const pages = {
                         content: 'q - знаменник геометричної прогресії'
                     },
                     {
-                        type: 'formula',
-                        content: '../images/...'
+                        type: 'p',
+                        content: 'bn=b1*q^(n-1)- формула n-го члена'
                     },
                     {
                         type: 'np',
@@ -581,23 +589,23 @@ const pages = {
                         content: 'Квадрат кожного член, починаючи з другого, є добутком двох сусідніх або рівновіддаленими від нього членами'
                     },
                     {
-                        type: 'formula',
+                        type: 'np',
                         name: 'Сума членів геометричної прогресії',
-                        content: '../images/...'
+                        content: 'Sn=(b1*(q^n-1))/(q-1)'
                     },
                     {
-                        type: 'formula',
+                        type: 'np',
                         name: 'Формула складних відсотків',
-                        content: '../images/...'
+                        content: 'an=a0*(1+(p/100))^n'
                     },
                     {
                         type: 'p',
                         content: 'Прогресія називається нескінченно спадною, якщо |q|<1'
                     },
                     {
-                        type: 'formula',
+                        type: 'np',
                         name: 'Сума всіх членів',
-                        content: '../images/...'
+                        content: 'S=b1/(1-q)-сума всіх членів'
                     }
                 ]
             }
@@ -701,7 +709,7 @@ const pages = {
                 ]
             },
             {
-                name: '../images/...',
+                name: 'y=k/x',
                 elements: [
                     {
                         type: 'p',
@@ -726,7 +734,7 @@ const pages = {
                 ]
             },
             {
-                name: '../images/...',
+                name: 'y=x^2',
                 elements: [
                     {
                         type: 'p',
@@ -756,33 +764,33 @@ const pages = {
                 ]
             },
             {
-                name: '../images/...',
+                name: 'y=x^(1/2)',
                 elements: [
                     {
                         type: 'ol',
                         data: [
                             {
-                                type: 'formula',
-                                content: '../images/...'
+                                type: 'p',
+                                content: 'Графік функції y=x^(1/2) - одна вітка параболи, що виходить з початку координат і знаходиться в I чверті'
                             },
                             {
-                                type: 'formula',
-                                content: '../images/...'
+                                type: 'p',
+                                content: 'Область визначень: x>=0'
                             },
                             {
-                                type: 'formula',
-                                content: '../images/...'
+                                type: 'p',
+                                content: 'Область значень: y>=0'
                             }
                         ]
                     }
                 ]
             },
             {
-                name: '../images/...',
+                name: 'Функція y=ax^2 та її властивості',
                 elements: [
                     {
                         type: 'p',
-                        content: 'Графік функції y=ax2 можна отримати з графіка функції y=x2, в результаті розтягнення в a разів від осі x, якщо a>1  і стиснення в a разів, якщо 0<a<1'
+                        content: 'Графік функції y=ax^2 можна отримати з графіка функції y=x^2, в результаті розтягнення в a разів від осі x, якщо a>1  і стиснення в a разів, якщо 0<a<1'
                     }
                 ]
             },
@@ -808,16 +816,16 @@ const pages = {
                 name: 'Квадратична функція. Її графік і властивості',
                 elements: [
                     {
-                        type: 'formula',
-                        content: '../images/...'
+                        type: 'p',
+                        content: 'Функцію, яку можна задати формулою y=ax^2+bx+c, де x-аргумент; a,b,c-деякі числа, називається квадратичною'
                     },
                     {
-                        type: 'formula',
-                        content: '../images/...'
+                        type: 'p',
+                        content: 'Графік квадратичної функції - це парабола, вершина якої знаходиться за формулою x0=b/2a'
                     },
                     {
-                        type: 'formula',
-                        content: '../images/...'
+                        type: 'p',
+                        content: '(x0;y0)-вершина'
                     },
                     {
                         type: 'ol',
@@ -828,12 +836,12 @@ const pages = {
                                 content: 'Напрям віток a>0 вгору a<0 вниз'
                             },
                             {
-                                type: 'formula',
-                                content: '../images/...'
+                                type: 'p',
+                                content: 'Вершина параболи x0=-b/2a ; y=f(x0)'
                             },
                             {
-                                type: 'formula',
-                                content: '../images/...'
+                                type: 'p',
+                                content: 'Перетин з осями координат <br>Перетин з Ox: y=0 <br>Перетин з Oy: x=0'
                             },
                             {
                                 type: 'p',
@@ -857,8 +865,8 @@ const pages = {
                         name: 'Натуральний показник',
                         data: [
                             {
-                                type: 'formula',
-                                content: '../images/...'
+                                type: 'p',
+                                content: '3^4=3*3*3*3=81'
                             },
                             {
                                 type: 'p',
@@ -875,16 +883,16 @@ const pages = {
                         name: 'Цілий показник',
                         data: [
                             {
-                                type: 'formula',
-                                content: '../images/...'
+                                type: 'p',
+                                content: 'a^(-n)=1/(a^n)'
                             },
                             {
-                                type: 'formula',
-                                content: '../images/...'
+                                type: 'p',
+                                content: 'a^0=1, a!=0'
                             },
                             {
-                                type: 'formula',
-                                content: '../images/...'
+                                type: 'p',
+                                content: '(a/b)^(-n)=(b/a)^n'
                             }
                         ]
                     },
@@ -893,24 +901,24 @@ const pages = {
                         name: 'Властивості',
                         data: [
                             {
-                                type: 'formula',
-                                content: '../images/...'
+                                type: 'p',
+                                content: 'a^n*a^m=a^(n+m)'
                             },
                             {
-                                type: 'formula',
-                                content: '../images/...'
+                                type: 'p',
+                                content: 'a^n:a^m=a^(n-m)'
                             },
                             {
-                                type: 'formula',
-                                content: '../images/...'
+                                type: 'p',
+                                content: '(a^n)^m=a^(n*m)'
                             },
                             {
-                                type: 'formula',
-                                content: '../images/...'
+                                type: 'p',
+                                content: '(a*b)^n=a^n*b^n'
                             },
                             {
-                                type: 'formula',
-                                content: '../images/...'
+                                type: 'p',
+                                content: '(a/b)^n=(a^n)/(b^n)'
                             }
                         ]
                     }
@@ -974,16 +982,16 @@ const pages = {
                         type: 'ol',
                         data: [
                             {
-                                type: 'formula',
-                                content: '../images/...'
+                                type: 'p',
+                                content: '(a^2)^(1/2)=|a|'
                             },
                             {
-                                type: 'formula',
-                                content: '../images/...'
+                                type: 'p',
+                                content: '(a*b)^(1/2)=a^(1/2)*b^(1/2)'
                             },
                             {
-                                type: 'formula',
-                                content: '../images/...'
+                                type: 'p',
+                                content: '(a/b)^(1/2)=a^(1/2)/b^(1/2)'
                             }
                         ]
                     },
@@ -1016,8 +1024,8 @@ const pages = {
                         content: 'Одночлен - це вираз, який є добутком чисел, змінних та їх степенів'
                     },
                     {
-                        type: 'formula',
-                        content: '../images/...'
+                        type: 'p',
+                        content: '3x*y^2'
                     },
                     {
                         type: 'p',
@@ -1029,12 +1037,9 @@ const pages = {
                 name: 'Многочлен',
                 elements: [
                     {
-                        type: 'p',
-                        content: 'Многочленом називається сума одночленів'
-                    },
-                    {
-                        type: 'formula',
-                        content: '../images/...'
+                        type: 'np',
+                        name: 'Многочленом називається сума одночленів',
+                        content: 'xy+5(x^2)y-3y^2'
                     },
                     {
                         type: 'p',
@@ -1102,29 +1107,29 @@ const pages = {
                         name: 'Формули скороченого множення',
                         data: [
                             {
-                                type: 'formula',
+                                type: 'np',
                                 name: 'Різниця квадратів дорівнює добутку різниці та суми цих виразів',
-                                content: '../images/...'
+                                content: 'a^2-b^2=(a-b)*(a+b)'
                             },
                             {
-                                type: 'formula',
+                                type: 'np',
                                 name: 'Квадрат суми дорівнює квадрат першого виразу додати подвоєний добуток цих виразів додати квадрат другого виразу',
-                                content: '../images/...'
+                                content: '(a+b)^2=a^2+2ab+b^2'
                             },
                             {
-                                type: 'formula',
+                                type: 'np',
                                 name: 'Квадрат різниці дорівнює квадрат першого виразу відняти подвоєний добуток цих виразів додати квадрат другого виразу',
-                                content: '../images/...'
+                                content: '(a-b)^2= a^2-2ab+b^2'
                             },
                             {
-                                type: 'formula',
+                                type: 'np',
                                 name: 'Сума кубів двох виразів  дорівнює добутку суми цих виразів і неповного квадрата їхньої різниці',
-                                content: '../images/...'
+                                content: 'a^3+b^3=(a+b)*(a^2-ab+b^2)'
                             },
                             {
-                                type: 'formula',
+                                type: 'np',
                                 name: 'Різниця кубів двох виразів дорівнює добутку різниці цих виразів і неповного квадрату їхньої суми',
-                                content: '../images/...'
+                                content: 'a^3-b^3=(a-b)*(a^2+ab+b^2)'
                             }
                         ]
                     }
@@ -1136,8 +1141,8 @@ const pages = {
                 name: 'Стандартний вигляд числа',
                 elements: [
                     {
-                        type: 'formula',
-                        content: '../images/...'
+                        type: 'p',
+                        content: 'Запис у вигляді a*10^n, де 1<=a<10, n є Z називається стандартним виглядом числа'
                     }
                 ]
             },
@@ -1192,12 +1197,9 @@ const pages = {
                         ]
                     },
                     {
-                        type: 'p',
-                        content: 'Імовірністю випадкової подій A називають відношення n подій, що сприяють появі події A до загальних n подій'
-                    },
-                    {
-                        type: 'formula',
-                        content: '../images/...'
+                        type: 'np',
+                        name: 'Імовірністю випадкової подій A називають відношення n подій, що сприяють появі події A до загальних n подій',
+                        content: 'P(A)=m/n'
                     }
                 ]
             },
@@ -1241,8 +1243,8 @@ const pages = {
                                 content: 'Гістограма (стовпчаста діаграма)'
                             },
                             {
-                                type: 'formula',
-                                content: '../images/...'
+                                type: 'p',
+                                content: 'Полігон частот (графік: Ox- варіант, Oy -частота)'
                             },
                             {
                                 type: 'p',
@@ -1500,8 +1502,12 @@ const pages = {
                 name: 'Довжина кола. Площа круга',
                 elements: [
                     {
-                        type: 'formula', 
-                        content: '../images/...'
+                        type: 'p', 
+                        content: 'l=2пR'
+                    },
+                    {
+                        type: 'p', 
+                        content: 'S=пR^2'
                     }
                 ]
             },
@@ -1509,8 +1515,20 @@ const pages = {
                 name: 'Довжина дуги кола. Площа сектора',
                 elements: [
                     {
-                        type: 'formula', 
-                        content: '../images/...'
+                        type: 'p', 
+                        content: 'l=(2пR)/(360°) - довжина дуги 1°'
+                    },
+                    {
+                        type: 'p', 
+                        content: 'l=(2пRа)/(360°)=(пRа)/(180°) - довжина дуги а'
+                    },
+                    {
+                        type: 'p', 
+                        content: 'S=(пR^2)/(360°) - площа сектора 1°'
+                    },
+                    {
+                        type: 'p', 
+                        content: 'S=(пR^2a)/(360°) - площа сектора a'
                     }
                 ]
             },
@@ -1518,9 +1536,13 @@ const pages = {
                 name: 'Площа сегмента',
                 elements: [
                     {
-                        type: 'formula', 
-                        content: '../images/...'
-                    }
+                        type: 'p', 
+                        content: 'Sсегмента=Sсектора-Sтрикутника, при  < 180°'
+                    },
+                    {
+                        type: 'p', 
+                        content: 'Sсегмента=Sсектора+Sтрикутника, при  > 180°'
+                    },
                 ]
             },
         ],
@@ -1822,8 +1844,8 @@ const pages = {
                         content: 'Центр кола, вписаного в трикутник - це точка перетину бісектрис'
                     },
                     {
-                        type: 'formula',
-                        content: '../images/...'
+                        type: 'p',
+                        content: 'r=2S/(a+b+c), де r - радіус кола вписаного кола, S - площа трикутника'
                     }
                 ]
             },
@@ -1851,8 +1873,8 @@ const pages = {
                         content: 'Центр кола, описаного навколо тупокутного трикутника лежить поза трикутником'
                     },
                     {
-                        type: 'fornuma',
-                        content: '../images/...' 
+                        type: 'p',
+                        content: 'R=abc/4S, де R - радіус описаного кола, S - площа трикутника' 
                     }
                 ],
             },
@@ -1862,12 +1884,34 @@ const pages = {
                     {
                         type: 'ul',
                         name: 'Загальні',
-                        data: ['../images/...']
+                        data: [
+                            {
+                                type: 'p',
+                                content: 'S=(1/2)ah'
+                            },
+                            {
+                                type: 'p',
+                                content: 'S=(1/2)absinа де -кут між a і b'
+                            },
+                            {
+                                type: 'p',
+                                content: 'S=(p(p-a)(p-b)(p-c))^(1/2), де p-половина периметра'
+                            }
+                        ]
                     },
                     {
                         type: 'ul',
                         name: 'Спеціальні',
-                        data: ['../images/...']
+                        data: [
+                            {
+                                type: 'p',
+                                content: 'S=(1/2)ab'
+                            },
+                            {
+                                type: 'p',
+                                content: 'S=(a^2)*((3)^(1/2))/4'
+                            }
+                        ]
                     }
                 ]
             }
@@ -2080,42 +2124,64 @@ const pages = {
                         type: 'ul',
                         name: 'Довільного чотирикутника',
                         data: [
-                            '../images/'
+                            {
+                                type: 'p',
+                                content: 'S=(1/2)*d1*d2*sina, де a-кут між діагоналями'
+                            }
                         ]
                     },
                     {
                         type: 'ul',
                         name: 'Паралелограма (можна використати для всіх інших, крім трапеції)',
                         data: [
-                            '../images/'
+                            {
+                                type: 'p',
+                                content: 'S=ah, де a-сторона паралелограма, h-висота, проведена до a'
+                            },
+                            {
+                                type: 'p',
+                                content: 'S=absinа, де a,b-сторони паралелограма, а-кут між ними'
+                            }
                         ]
                     },
                     {
                         type: 'ul',
                         name: 'Прямокутника',
                         data: [
-                            '../images/'
+                            {
+                                type: 'p',
+                                content: 'S=ab, де a,b-сторони прямокутника'
+                            }
                         ]
                     },
                     {
                         type: 'ul',
                         name: 'Квадрата',
                         data: [
-                            '../images/'
+                            {
+                                type: 'p',
+                                content: 'S=a^2, де a-сторони квадрата'
+                            }
                         ]
                     },
                     {
                         type: 'ul',
                         name: 'Ромба',
                         data: [
-                            '../images/'
+                            {
+                                type: 'p',
+                                content: 'S=(1/2)*d1*d2, де d1,d2-діагоналі'
+                            }
                         ]
                     },
                     {
                         type: 'ul',
                         name: 'Трапеції',
                         data: [
-                            '../images/'
+                            {
+                                type: 'p',
+                                content: 'S=((a+b)/2)*h, де a, b-основи трапеції, h-висота'
+                            }
                         ]
                     }
                 ]
@@ -2123,133 +2189,54 @@ const pages = {
         ],
         poligons: [
             {
-                name: 'Геометрія. Точка і пряма. Властивості точок і прямих.',
+                name: 'Многокутники',
                 elements: [
                     {
                         type: 'p',
-                        content: 'Планіметрія - це розділ геометрії, де вивчаються властивості фігур на площині'
+                        content: 'Сума кутів n-кутника = 180°(n-2)'
                     },
                     {
                         type: 'p',
-                        content: 'Промінь - це відрізок, що має початок і не має кінця'
-                    },
-                    {
-                        type: 'p',
-                        content: 'Доповняльні промені - це два промені, які мають спільний початок і лежать на одній прямій, доповнюючи один одного до прямої'
-                    },
-                    {
-                        type: 'p',
-                        content: 'Рівні відрізки - це відрізки, які можна сумістити накладанням'
-                    },
-                    {
-                        type: 'p',
-                        content: 'Основні фігури на площині - це точка і пряма'
-                    },
-                    {
-                        type: 'np',
-                        name: 'Основна np прямої',
-                        content: 'Через будь-які дві точки можна провести пряму і до того ж тільки одну'
-                    },
-                    {
-                        type: 'np',
-                        name: 'Основна np довжини відрізка',
-                        content: 'Кожний відрізок має певну довжину > 0. Довжина відрізка = сумі довжин частин, на які він розбитий будь-якою точкою'
-                    },
-                ]
-            },
-            {
-                name: 'Кут. Вимірювання кутів',
-                elements: [
-                    {
-                        type: 'p',
-                        content: 'Кут - це геометрична фігура, яка складається з двох променів, які виходять з однієї точки'
-                    },
-                    {
-                        type: 'p',
-                        content: 'Розгорнутий кут - це кут сторони якого є доповняльними променями.'
-                    },
-                    {
-                        type: 'p',
-                        content: 'Бісектриса кута - це промінь, який виходить з вершини кута і ділить цей кут на 2 рівних кути'
-                    },
-                    {
-                        type: 'p',
-                        content: 'Суміжні кути - це кути, в яких одна сторона в них спільна, а дві інші сторони цих кутів є доповняльними променями'
-                    },
-                    {
-                        type: 'p',
-                        content: 'Вертикальні кути - це кути, в яких обидві сторони одного кута є продовженням сторін другого.'
-                    },
-                    {
-                        type: 'np',
-                        name: 'Основна np вимірювання кутів',
-                        content: 'Кожний кут має градусну міру більшу від нуля. Розгорнутий кут = 180°'
-                    },
-                    {
-                        type: 'p',
-                        content: 'Градусна міра кута дорівнює сумі градусних мір кутів на які він розбивається будь-яким променем, що проходить між його сторонами.'
-                    },
-                    {
-                        type: 't',
-                        name: 'Теорема (про суміжні кути)',
-                        content: 'Сума сусідніх кутів = 180°'
+                        content: 'Сума всіх зовнішніх кутів будь-якого n-кутника = 360°'
                     }
                 ]
             },
             {
-                name: 'Перпендикулярні прямі',
+                name: 'Правильні многокутники та їх властивості',
                 elements: [
                     {
                         type: 'p',
-                        content: 'Перпендикулярні прямі - це прямі, що перетинаються під прямим кутом'
+                        content: 'Правильний многокутник - це многокутник, у якого всі сторони і всі кути рівні'
                     },
                     {
                         type: 'p',
-                        content: 'Перпендикулярні відрізки - це відрізки, що лежать на перпендикулярних прямих'
+                        content: 'В правильний многокутник завжди можна вписати коло і описати коло навколо нього, і центри цих кіл співпадатимуть (точка - центр многокутника)'
+                    },
+                    {
+                        type: 'p',
+                        content: 'Кут, під яким видно стороку правильного многокутника з його центру називають центральним кутом многокутника. Сума всіх центральних кутів=360°'
                     }
                 ]
             },
             {
-                name: 'Паралельні прямі, ознака паралельності прямих',
+                name: 'Формули радіусів вписаних і описаних кіл правильних многокутників',
                 elements: [
                     {
                         type: 'p',
-                        content: 'Паралельні прямі - це прямі, що не перетинаються і лежать в одній площині'
+                        content: 'R=a/(2*sin(180°/n))'
                     },
                     {
                         type: 'p',
-                        content: 'Внутрішні різносторонні кути - це кути, які лежать з різних боків від січної с між прямими а і b'
+                        content: 'r=a/(2*tg(180°/n))'
                     },
                     {
                         type: 'p',
-                        content: 'Внутрішні односторонні кути - кути, які лежать з одного боку від січної с між прямими а і b'
+                        content: 'r=(1/2)R в правильних многокутниках'
                     },
                     {
-                        type: 'p',
-                        content: 'Відповідні кути - це два кути, які знаходяться в «одному місці» щодо поперечного, але на різних лініях'
-                    },
-                    {
-                        type: 'np',
-                        name: 'Аксіома (паралельності прямих)',
-                        content: 'Через точку, яка не лежить на даній прямій проходить тільки одна пряма, паралельна даній'
-                    },
-                    {
-                        type: 'ol',
-                        name: 'Теорема (ознака паралельності прямих)',
-                        data: [
-                            {
-                                type: 'p',
-                                content: 'Якщо внутрішні різносторонні кути, утворені при перетині двох прямих січною, рівні, то прямі паралельні'
-                            },
-                            {
-                                type: 'p',
-                                content: 'Якщо сума внутрішніх односторонніх кутів = 180°, то такі прямі паралельні'
-                            },
-                            {
-                                type: 'p',
-                                content: 'Якщо відповідні кути рівні, то прямі паралельні'
-                            }
-                        ]
+                        type: 'i',
+                        src: '',
+                        alt: 'oh no! you got me... not ready with this image yet :('
                     }
                 ]
             }
@@ -2275,8 +2262,9 @@ const pages = {
                         content: 'Котангенсом(ctg) гострого кута прямокутного трикутника називається відношення прилеглого катета до протилежного катета'
                     },
                     {
-                        type: 'table',
-                        content: '../images/...'
+                        type: 'i',
+                        src: '',
+                        alt: 'oh no! you got me... not ready with this image yet :('
                     }
                 ]
             },
@@ -2284,18 +2272,43 @@ const pages = {
                 name: 'Тригонометричні формули',
                 elements: [
                     {
-                        type: 'formula',
+                        type: 'p',
                         name: 'Основна тригонометрична тотожність',
-                        content: '../images/...'
+                        content: 'sin^2(a) + cos^2(a) = 1'
                     },
                     {
-                        type: 'formula',
-                        content: '../images/...'
+                        type: 'p',
+                        content: 'tga =sina/cosa'
                     },
                     {
-                        type: 'formula',
+                        type: 'p',
+                        content: 'ctg(a) =cos(a)/sin(a)'
+                    },
+                    {
+                        type: 'p',
+                        content: 'tg(a)*ctg(a) = 1'
+                    },
+                    {
+                        type: 'ol',
                         name: 'Формули зведення',
-                        content: '../images/...'
+                        data: [
+                            {
+                                type: 'p',
+                                content: 'sin(90°-a) = cos(a)'
+                            },
+                            {
+                                type: 'p',
+                                content: 'cos(90°-a) = sin(a)'
+                            },
+                            {
+                                type: 'p',
+                                content: 'tg(90°-a) = ctg(a)'
+                            },
+                            {
+                                type: 'p',
+                                content: 'ctg(90°-a) = tg(a)'
+                            }
+                        ]
                     }
                 ]
             },
@@ -2303,13 +2316,31 @@ const pages = {
                 name: 'Синуси, косинуси, тангенси кутів від 0° до 180°',
                 elements: [
                     {
-                        type: 'table',
-                        content: '../images/...'
+                        type: 'i',
+                        src: '',
+                        alt: 'oh no! you got me... not ready with this image yet :('
                     },
                     {
-                        type: 'formula',
+                        type: 'ul',
                         name: 'cos, tg, ctg тупого кута є число від’ємне, а sin тупого кута - додатнє',
-                        content: '../images/...'
+                        data: [
+                            {
+                                type: 'p',
+                                content: 'sin(180°-a)=sin(a)'
+                            },
+                            {
+                                type: 'p',
+                                content: 'cos(180°-a)=-cos(a)'
+                            },
+                            {
+                                type: 'p',
+                                content: 'tg(180°-a)=-tg(a)'
+                            },
+                            {
+                                type: 'p',
+                                content: 'ctg(180°-a)=-ctg(a)'
+                            }
+                        ]
                     }
                 ]
             }
@@ -2407,8 +2438,8 @@ const pages = {
                 name: 'Координати вектора',
                 elements: [
                     {
-                        type: 'formula',
-                        content: '../images/...'
+                        type: 'p',
+                        content: 'A(x1;y1);  B(x2;y2)<br>AB(x2-x1;y2-y1)<br>a(x;y)<br>a=(x^2+y^2)(1/2)'
                     },
                     {
                         type: 'p',
@@ -2420,9 +2451,9 @@ const pages = {
                 name: 'Додавання векторів',
                 elements: [
                     {
-                        type: 'formula',
+                        type: 'np',
                         name: 'Алгебраїчна сума векторів',
-                        content: '../image/...'
+                        content: 'a(x1;y1) ; b(x2;y2)<br>c=a+b<br>c=(x1+x2;y1+y2)'
                     },
                     {
                         type: 'ol',
@@ -2453,14 +2484,14 @@ const pages = {
                 name: 'Множення вектора на число',
                 elements: [
                     {
-                        type: 'formula',
+                        type: 'np',
                         name: 'Добутком вектора на число є вектор, координати якого є добутком відповідних координат даного вектора на дане число',
-                        content: '../images/...'
+                        content: 'a(x;y)<br>ka(kx;ky)'
                     },
                     {
-                        type: 'formula',
+                        type: 'np',
                         name: 'Модуль вектора',
-                        content: '../images/...'
+                        content: 'Модуль вектора ka=|k|*|a|'
                     },
                     {
                         type: 'ul',
@@ -2477,9 +2508,9 @@ const pages = {
                         ]
                     },
                     {
-                        type: 'formula',
+                        type: 'np',
                         name: 'У колінеарних векторів відповідні координати пропорційні',
-                        content: '../images/...'
+                        content: 'a(x1;y1); b(x2;y2)<br>x1x2=y1y2=k<br>k>0 a, b - однонапрямлені<br>k<0 a, b - протилежнонапрямлені'
                     }
                 ]
             },
@@ -2487,8 +2518,8 @@ const pages = {
                 name: 'Скалярний добуток векторів',
                 elements: [
                     {
-                        type: 'formula',
-                        content: '../images/...'
+                        type: 'p',
+                        content: 'a(x1;y1); b(x2;y2)<br>a*b=x1x2+y1y2 '
                     }
                 ]
             },
@@ -2500,8 +2531,20 @@ const pages = {
                         content: 'Кут між векторами - це кут, який утворюють вектори, три перенесенні їх так, щоб їх початки збігались'
                     },
                     {
-                        type: 'formula',
-                        content: '../images/...'
+                        type: 'p',
+                        content: 'ab=|a|*|b|cosa, де a-кут між векторами'
+                    },
+                    {
+                        type: 'p',
+                        content: 'Якщо a перпендикулярний до b, то ab=0'
+                    },
+                    {
+                        type: 'p',
+                        content: 'а-тупий, то ab<0'
+                    },
+                    {
+                        type: 'p',
+                        content: 'а-гострий, то ab>0'
                     }
                 ]
             }
@@ -2511,8 +2554,8 @@ const pages = {
                 name: 'Відстань між точками із заданими координатами',
                 elements: [
                     {
-                        type: 'formula',
-                        content: '../images/...'
+                        type: 'p',
+                        content: 'A(x1;y1) B(x2;y2)<br>AB=((x1-x2)^2+(y1-y2)^2)^(1/2)'
                     }
                 ]
             },
@@ -2520,8 +2563,8 @@ const pages = {
                 name: 'Координата середини відрізка',
                 elements: [
                     {
-                        type: 'formula',
-                        content: '../images/...'
+                        type: 'p',
+                        content: 'A(x1;y1) B(x2;y2)<br>С(x0;y0) - середина AB<br>x0=(x1+x2)/2; y0=(y1+y2)/2'
                     }
                 ]
             },
@@ -2529,8 +2572,8 @@ const pages = {
                 name: 'Рівняння кола',
                 elements: [
                     {
-                        type: 'formula',
-                        content: '../images'
+                        type: 'p',
+                        content: '(x-a)^2 +(y-b)^2 = R^2, де (a;b)-центр кола, R - радіус'
                     }
                 ]
             },
@@ -2538,9 +2581,9 @@ const pages = {
                 name: 'Рівняння кола',
                 elements: [
                     {
-                        type: 'formula',
+                        type: 'p',
                         name: 'Рівняння прямої має вигляд',
-                        content: '../images/...'
+                        content: 'ax+by=c, де a,b,c-деякі числа, при чому a,b0 одночасно'
                     },
                     {
                         type: 'p',
@@ -2552,8 +2595,20 @@ const pages = {
                 name: 'Кутовий коефіцієнт прямої',
                 elements: [
                     {
-                        type: 'formula',
-                        content: '../images/...'
+                        type: 'p',
+                        content: 'y=kx+b, де k-кутовий коефіцієнт'
+                    },
+                    {
+                        type: 'p',
+                        content: 'k=tg(а); а-кут нахилу прямої з додатнім напрямом осі x'
+                    },
+                    {
+                        type: 'p',
+                        content: 'k>0-зростає; а-гострий'
+                    },
+                    {
+                        type: 'p',
+                        content: 'k<0-спадає; а-тупий'
                     },
                     {
                         type: 'p',
@@ -2573,8 +2628,8 @@ const pages = {
                         content: 'Паралельне перенесення - це перетворення, при якому точки зміщуються тому самому напрямі на ту саму відстань'
                     },
                     {
-                        type: 'formula',
-                        content: '../images/...'
+                        type: 'p',
+                        content: 'В координатній площині при паралельному перенесенні т.M(x;y) з координати (x;y) переходить на вектор a в точку M1, таку, що x1=x+a, y1=y+b'
                     }
                 ]
             },
@@ -2582,8 +2637,8 @@ const pages = {
                 name: 'Симетрія відносно прямої(осьова симетрія)',
                 elements: [
                     {
-                        type: 'formula',
-                        content: '../images/...'
+                        type: 'p',
+                        content: 'т.A і A1називають симетричними відносно прямої l, якщо пряма l - серединний перпендикуляр до відрізка AA1'
                     }
                 ]
             },
@@ -2591,8 +2646,8 @@ const pages = {
                 name: 'Симетрія відносно точки(центральна симетрія)',
                 elements: [
                     {
-                        type: 'formula',
-                        content: '../images/...'
+                        type: 'p',
+                        content: 'т. A і A1 називають симетричними відносно т. O, якщо т. O є серединою AA1. т.O - центр симетрії'
                     }
                 ]
             },
@@ -2600,8 +2655,8 @@ const pages = {
                 name: 'Поворот',
                 elements: [
                     {
-                        type: 'formula',
-                        content: '../images/...'
+                        type: 'p',
+                        content: 'Поворотом фігури F навколо т. O на кут а називається таке перетворення, при якому будь-яка т. A фігури F переходить в т. A1, яка є належить фігурі F1, таку, що AO=A1O і ∠AOA1=а'
                     },
                     {
                         type: 'p',
@@ -2617,9 +2672,9 @@ const pages = {
                 name: 'Площі подібних фігур',
                 elements: [
                     {
-                        type: 'formula',
+                        type: 'np',
                         name: 'Відношення подібних фігур дорівнює квадрату коефіцієнта подібності',
-                        content: '../images/...'
+                        content: 'ABC~A1B1C1<br>AB/A1B1=BC/B1C1=AC/A1C1=k<br>S(ABC)/S(A1B1C1)=k^2'
                     },
                 ]
             }
