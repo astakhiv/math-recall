@@ -1,6 +1,7 @@
 import { useState } from 'react'
 
 import Section from './Section'
+import pages, {Page} from '../db'
 
 import '../CSS/Structure/contentDescription.css'
 import '../CSS/Structure/changeButtons.css'
@@ -9,6 +10,7 @@ import '../CSS/Structure/text.css'
 import '../CSS/View/changeButtons.css'
 import '../CSS/View/content.css'
 
+const pagesEls: string[] = ['algebra', 'geometry']
 const data = [
     {
         name: 'Algebra',
@@ -22,15 +24,10 @@ const data = [
     }
 ]
 
-const buttons = [
-    'A',
-    'G'
-]
-
+const buttons = ['A', 'G']
 
 function Content(){
-    const [selected, setSelected] = useState(-1);
-
+    const [topic, setTopic] = useState(-1);
     let bg = '';
     let content = (
         <>
@@ -40,7 +37,7 @@ function Content(){
                         <Section
                             name={topic.name}
                             content={topic.content}
-                            onClick={() => (setSelected(index))}
+                            onClick={() => (setTopic(index))}
                             selected={false}
                         />
                     )
@@ -49,8 +46,8 @@ function Content(){
         </>
     );
 
-    if (selected !== -1) {
-        bg = data[selected].bg
+    if (topic !== -1) {
+        bg = data[topic].bg
         content = (
             <>
                 <div className='change-buttons'>
@@ -59,16 +56,17 @@ function Content(){
                             return <div>
                                     <button 
                                         className='change-button change-button-view medium'
-                                        onClick={() => setSelected(index)}
-                                        disabled={selected === index}
+                                        onClick={() => setTopic(index)}
+                                        disabled={topic === index}
                                     >{text}</button>
                                 </div>
                         })
                     }
                 </div>
                 <Section 
-                    name={data[selected].name}
-                    content={data[selected].content}
+                    key={data[topic].name}
+                    name={data[topic].name}
+                    content={pages[pagesEls[topic]] as Page}
                     onClick={undefined}
                     selected={true}
                 />
@@ -77,7 +75,7 @@ function Content(){
     }
 
     return (
-        <section className={`body-bg content content-view ${bg} ` + (selected === -1 ? 'content-not-selected' : 'content-selected')}>
+        <section className={`body-bg content content-view ${bg} ` + (topic === -1 ? 'content-not-selected' : 'content-selected')}>
             { content }
         </section>
     )

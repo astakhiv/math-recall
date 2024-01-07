@@ -4,7 +4,7 @@ type TeoremParams = {
     data: TeoremEl
 }
 
-type TeoremEl = {
+export type TeoremEl = {
     type: string,
     name: string,
     content: string,

@@ -2,7 +2,7 @@ type NamedParagraphParam = {
     data: NamedParagraphEl
 }
 
-type NamedParagraphEl = {
+export type NamedParagraphEl = {
     type: string,
     name: string,
     content: string

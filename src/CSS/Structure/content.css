@@ -7,6 +7,7 @@
 }
 
 .content-selected{
+    height: fit-content;
     justify-content: center;
 }
 
