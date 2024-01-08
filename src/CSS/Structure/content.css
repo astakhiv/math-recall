@@ -9,13 +9,5 @@
 .content-selected{
     height: fit-content;
     justify-content: center;
-}
-
-
-@media (max-width: 720px) {
-
-    .content-selected{
-        flex-direction: column;
-        justify-content: start;
-    }
+    align-items: flex-start;
 }

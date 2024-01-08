@@ -2,22 +2,21 @@
     display: grid;
     justify-items: center;
     text-align: center;
-    min-height: 70.47vh;
+    height: 70.47vh;
     border-radius: 25px;
     transition: all 500ms;
 }
 
 .section-not-selected{
-    height: 70.47vh;
     width: 39.6%;
     align-content: center;
     transition: all 500ms;
 }
 
 .section-selected{
-    margin: 100px, 0px, 100px, 0px;
-    height: fit-content;
+    margin: 100px 0px;
     width: 81%;
+    height: fit-content;
     align-content: flex-start;
     transition: all 500ms;
 }
@@ -55,7 +54,6 @@
     }
 
     .section-selected{
-        height: 76.5vh;
         margin: 0px 0px 100px 0px;
     }
 

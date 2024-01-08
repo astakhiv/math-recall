@@ -1,6 +1,6 @@
 .body-bg{
     min-height: 90vh;
-    height: fit-content;
+    height: fit-content(min(max-content, max(min-content, 90vh)));
     display: flex;
     flex-wrap: wrap;
 }
