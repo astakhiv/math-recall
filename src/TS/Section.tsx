@@ -71,7 +71,7 @@ function Section({name, content, onClick, selected}: SectionParams){
 
 function Els(content: ArticleData[]){
     return content.map((el: ArticleData) => {
-        return <article>{Article(el)}</article>    
+        return <>{Article(el)}</>    
     })
 }
 
