@@ -1,7 +1,5 @@
 .change-buttons{
-    margin: 100px 0px;
     display: block;
-    height: 100%;
 }
 
 .change-button{
@@ -22,6 +20,6 @@
 
     .change-buttons{
         display: flex;
-        margin: 50px 0px 5px 0px;
+        margin: 0px 0px 5px 0px;
     }
 }

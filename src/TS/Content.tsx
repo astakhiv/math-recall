@@ -50,6 +50,7 @@ function Content(){
         bg = data[topic].bg
         content = (
             <>
+            <div className='content'>
                 <div className='change-buttons'>
                     {
                         buttons.map((text, index) => {
@@ -70,12 +71,13 @@ function Content(){
                     onClick={undefined}
                     selected={true}
                 />
+                </div>
             </>
         )
     }
 
     return (
-        <section className={`body-bg content content-view ${bg} ` + (topic === -1 ? 'content-not-selected' : 'content-selected')}>
+        <section className={`body-bg content-wrap content-view ${bg} ` + (topic === -1 ? 'content-not-selected' : 'content-selected')}>
             { content }
         </section>
     )

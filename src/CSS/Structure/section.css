@@ -14,8 +14,8 @@
 }
 
 .section-selected{
-    margin: 100px 0px;
-    width: 81%;
+    width: 81vw;
+    min-height: 70.47vh;
     height: fit-content;
     align-content: flex-start;
     transition: all 500ms;
