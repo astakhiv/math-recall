@@ -1,4 +1,6 @@
 import Paragraph, {ParagraphEl} from "./Paragrapg"
+import '../../CSS/Structure/text.css'
+import '../../CSS/Structure/additionalEls.css'
 
 type TeoremParams = {
     data: TeoremEl
@@ -13,9 +15,9 @@ export type TeoremEl = {
 
 function Teorem({data}:TeoremParams){
     return (
-        <>
-            <h3>{data.name}</h3>
-            <p>{data.content}</p>
+        <div className="el">
+            <h3 className="medium">{data.name}</h3>
+            <p className="small">{data.content}</p>
             {
                 Array.isArray(data.cons) ? 
                     data.cons.map(el => <Paragraph data={el}/>) : 
@@ -23,7 +25,7 @@ function Teorem({data}:TeoremParams){
                         <Paragraph data={data.cons}/> : 
                         ''
             }
-        </>
+        </div>
     )
 }
 

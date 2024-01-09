@@ -1,3 +1,6 @@
+import '../../CSS/Structure/text.css'
+import '../../CSS/Structure/additionalEls.css'
+
 export type ParagraphParam = {
     data: ParagraphEl
 }
@@ -9,7 +12,9 @@ export type ParagraphEl = {
 
 function Paragraph({data}: ParagraphParam){
     return (
-        <p>{data.content}</p>
+        <div className="el">
+            <p className='small'>{data.content}</p>
+        </div>
     )
 }
 

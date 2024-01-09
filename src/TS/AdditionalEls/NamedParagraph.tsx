@@ -1,3 +1,6 @@
+import '../../CSS/Structure/text.css'
+import '../../CSS/Structure/additionalEls.css'
+
 type NamedParagraphParam = {
     data: NamedParagraphEl
 }
@@ -10,10 +13,10 @@ export type NamedParagraphEl = {
 
 function NamedParagraph({data}: NamedParagraphParam){
     return (
-        <>
-            <h3>{data.name}</h3>
-            <p>{data.content}</p>
-        </>
+        <div className="el">
+            <h3 className='medium'>{data.name}</h3>
+            <p className='small'>{data.content}</p>
+        </div>
     )
 }
 

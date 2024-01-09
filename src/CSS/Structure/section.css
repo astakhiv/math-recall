@@ -14,10 +14,12 @@
 }
 
 .section-selected{
-    width: 81vw;
+    align-content: flex-start;
     min-height: 70.47vh;
     height: fit-content;
-    align-content: flex-start;
+    width: 69vw;
+    text-align: left;
+    padding: 50px;
     transition: all 500ms;
 }
 
@@ -39,6 +41,11 @@
     width: 80%;
 }
 
+.controlButton{
+    padding: 10px;
+    border-radius: 25px;
+    margin: 2px 5px;
+}
 
 @media (max-width: 720px) {
     .section-not-selected{

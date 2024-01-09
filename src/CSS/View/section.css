@@ -2,3 +2,21 @@
     filter: drop-shadow(10px 5px 4px #4444dd);
     transition: all 750ms;
 }
+
+.controlButton{
+    border: 1px solid #fff;
+    color: #262626;
+    background-color: #fff;
+    transition: all 250ms;
+}
+
+.controlButton:disabled{
+    pointer-events: none;
+    color: #fff;
+    background-color: #262626;
+}
+
+.controlButton:hover{
+    opacity: 0.5;
+    transition: all 250ms;
+}

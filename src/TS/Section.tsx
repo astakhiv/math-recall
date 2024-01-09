@@ -8,6 +8,7 @@ import Paragraph, { ParagraphEl } from './AdditionalEls/Paragrapg'
 import NamedParagraph, { NamedParagraphEl } from './AdditionalEls/NamedParagraph'
 import Teorem, { TeoremEl } from './AdditionalEls/Teorem'
 import Img, { ImageEl } from './AdditionalEls/Image'
+import List, {ListEl} from './AdditionalEls/LIst'
 
 type SectionParams = {
     name: string;
@@ -42,7 +43,7 @@ function Section({name, content, onClick, selected}: SectionParams){
                 <div>
                     {
                         headers[name].map((k, i) => 
-                            <button key={i} onClick={() => setHeader(i)}>{k}</button>)
+                            <button className="controlButton small" disabled={header===i} key={i} onClick={() => setHeader(i)}>{k}</button>)
                     }
                 </div>
             ))
@@ -84,6 +85,8 @@ function Article(data: ArticleData){
             return <Teorem data={el as TeoremEl}/>
         } else if (el.type === 'i'){
             return <Img data={el as ImageEl}/>
+        } else{
+            return <List data={el as ListEl} type={el.type}/>
         }
     })
 }
